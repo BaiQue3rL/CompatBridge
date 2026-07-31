@@ -11,7 +11,7 @@ CompatBridge 使用 Microsoft Edge 官方的 Enterprise Mode Site List v2 和 Ed
 模拟浏览器点击。
 
 > 当前预览版：`v0.3.4-preview`<br>
-> [下载最新绿色版](https://github.com/BaiQue3rL/CompatBridge/releases/latest)
+> [下载 v0.3.4-preview 绿色版](https://github.com/BaiQue3rL/CompatBridge/releases/tag/v0.3.4-preview)
 
 ## 当前阶段
 
