@@ -1,0 +1,21 @@
+# Local development output
+.tmp/
+artifacts/
+TestResults/
+
+# PowerShell / editor noise
+*.user
+*.suo
+.vs/
+.vscode/
+
+# Intermediate logo-generation files
+assets/compatbridge-logo.png
+assets/compatbridge-logo-chroma.png
+assets/compatbridge-logo-square.png
+
+# Runtime data must never be committed
+sites.xml
+state.json
+backups/
+logs/
