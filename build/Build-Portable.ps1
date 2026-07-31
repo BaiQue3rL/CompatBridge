@@ -111,7 +111,7 @@ $checksumPath = Join-Path $portableRoot 'SHA256.txt'
     (New-Object System.Text.UTF8Encoding($false))
 )
 
-$zipPath = Join-Path $artifactRoot 'CompatBridge-portable-v0.3.4-preview.zip'
+$zipPath = Join-Path $artifactRoot 'CompatBridge-portable-v0.3.5-preview.zip'
 if (Test-Path -LiteralPath $zipPath -PathType Leaf) {
     Remove-Item -LiteralPath $zipPath -Force
 }

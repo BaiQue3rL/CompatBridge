@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <title>CompatBridge logo — symmetric bridge and compatibility loop</title>
+  <path fill="#0067B8" d="
+    M 128 400
+    C 178 230 330 124 512 124
+    C 694 124 846 230 896 400
+    L 947 400
+    L 947 612
+    L 859 612
+    L 859 504
+    L 704 504
+    L 704 454
+    C 704 359 618 282 512 282
+    C 406 282 320 359 320 454
+    L 320 504
+    L 165 504
+    L 165 612
+    L 77 612
+    L 77 400
+    Z"/>
+  <path fill="#00A4C7" d="
+    M 184 544
+    L 320 544
+    A 192 192 0 0 0 704 544
+    L 840 544
+    A 328 328 0 0 1 184 544
+    Z"/>
+</svg>

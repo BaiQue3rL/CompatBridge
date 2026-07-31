@@ -8,7 +8,7 @@ namespace CompatBridge.Core
     {
         public const string ProductName = "CompatBridge";
         public const string ChineseName = "兼容桥";
-        public const string Version = "0.3.4-preview";
+        public const string Version = "0.3.5-preview";
         public const string DefaultDataRoot = @"C:\ProgramData\CompatBridge";
     }
 
