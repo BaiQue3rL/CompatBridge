@@ -10,8 +10,8 @@ CompatBridge 使用 Microsoft Edge 官方的 Enterprise Mode Site List v2 和 Ed
 策略管理需要 IE 内核的 OA、ERP、CRM 等旧系统。它不会修改 Edge 用户数据，也不会
 模拟浏览器点击。
 
-> 当前预览版：`v0.3.4-preview`<br>
-> [下载 v0.3.4-preview 绿色版](https://github.com/BaiQue3rL/CompatBridge/releases/tag/v0.3.4-preview)
+> 当前预览版：`v0.3.5-preview`<br>
+> [下载 v0.3.5-preview 绿色版](https://github.com/BaiQue3rL/CompatBridge/releases/tag/v0.3.5-preview)
 
 ## 当前阶段
 
@@ -109,15 +109,17 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File `
 artifacts\portable\CompatBridge.exe
 artifacts\portable\使用说明.txt
 artifacts\portable\SHA256.txt
-artifacts\CompatBridge-portable-v0.3.4-preview.zip
+artifacts\CompatBridge-portable-v0.3.5-preview.zip
 ```
 
 ## 品牌资源
 
 - `assets/compatbridge-logo-final.png`：透明背景主 Logo；
+- `assets/compatbridge-logo.svg`：严格左右镜像的矢量源文件；
 - `assets/CompatBridge.ico`：Windows 多尺寸应用图标；
 - `assets/compatbridge-icon-sizes.png`：小尺寸辨识度预览；
 - `assets/LOGO_PROMPT.md`：生成提示词和生产处理记录。
+- `build/Build-Logo.ps1`：从精确几何坐标生成 PNG 和多尺寸 ICO。
 
 ## 许可证
 

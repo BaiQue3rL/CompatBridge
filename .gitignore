@@ -13,6 +13,9 @@ TestResults/
 assets/compatbridge-logo.png
 assets/compatbridge-logo-chroma.png
 assets/compatbridge-logo-square.png
+assets/CompatBridge-symmetric.ico
+assets/compatbridge-icon-sizes-symmetric.png
+assets/compatbridge-logo-symmetric.png
 
 # Runtime data must never be committed
 sites.xml
