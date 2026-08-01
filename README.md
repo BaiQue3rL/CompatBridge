@@ -1,19 +1,51 @@
-# CompatBridge（兼容桥）
+# CompatBridge（兼容桥）— Microsoft Edge IE 模式站点管理工具
 
 <p align="center">
   <img src="assets/compatbridge-logo-final.png" width="112" alt="CompatBridge Logo">
 </p>
 
-批量管理 Edge IE 模式站点，一键添加，随时撤销。
+<p align="center">
+  <a href="https://github.com/BaiQue3rL/CompatBridge/releases/tag/v0.3.5-preview"><img src="https://img.shields.io/badge/release-v0.3.5--preview-0067B8" alt="Release v0.3.5-preview"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4" alt="Windows 10/11">
+  <img src="https://img.shields.io/badge/.NET%20Framework-4.8-512BD4" alt=".NET Framework 4.8">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/BaiQue3rL/CompatBridge" alt="MIT License"></a>
+</p>
 
-CompatBridge 使用 Microsoft Edge 官方的 Enterprise Mode Site List v2 和 Edge
-策略管理需要 IE 内核的 OA、ERP、CRM 等旧系统。它不会修改 Edge 用户数据，也不会
-模拟浏览器点击。
+<p align="center"><strong>批量管理 Edge IE 模式站点，一键添加，随时撤销。</strong></p>
+
+CompatBridge 是面向 Windows 的 Microsoft Edge IE 模式兼容工具，使用官方
+Enterprise Mode Site List v2 和 Edge 策略管理需要 IE11 内核的 OA、ERP、CRM
+等旧系统。它不会修改 Edge 用户数据，也不会模拟浏览器点击。
+
+关键词：Microsoft Edge IE mode、Edge 兼容模式、Enterprise Mode Site List v2、
+IE11、旧版 OA/ERP/CRM、Windows 浏览器兼容性。
 
 > 当前预览版：`v0.3.5-preview`<br>
 > [下载 v0.3.5-preview 绿色版](https://github.com/BaiQue3rL/CompatBridge/releases/tag/v0.3.5-preview)
 
-## 当前阶段
+## 软件界面
+
+主界面只保留最直接的操作：输入网址后添加，或在现有列表中找到网址并删除。
+
+![CompatBridge Edge IE 模式站点管理主界面](docs/images/main-window.png)
+
+批量添加支持多行粘贴、Excel 一列以及 TXT/CSV 导入，并在写入前区分有效、
+已存在、重复、非法和冲突项。
+
+![CompatBridge 批量添加与 Enterprise Mode Site List 预览](docs/images/batch-add.png)
+
+> 截图中的域名和 IP 仅为界面展示示例。
+
+## 使用方法
+
+1. 从 [Releases](https://github.com/BaiQue3rL/CompatBridge/releases/tag/v0.3.5-preview)
+   下载绿色版 ZIP 并解压；
+2. 双击 `CompatBridge.exe`，接受 Windows 管理员权限提示；
+3. 输入需要 IE 模式的网址并点击“添加”；
+4. 删除时在列表中找到对应网址，点击“删除”；
+5. Edge 正在运行时，按提示保存网页内容并确认是否重启。
+
+## 功能特性
 
 仓库目前包含 C# WinForms 绿色版和 PowerShell 验证原型：
 
@@ -41,7 +73,7 @@ PowerShell 原型已在 Windows 10 与系统级 Edge 150 上完成注册表、XM
 删除、撤销和基线恢复演练。C# WinForms 0.3 预览版已完成真实的重复添加、删除、
 再次添加、撤销和版本化策略地址迁移，并通过核心测试与主窗口启动、布局检查。
 
-## 快速开始
+## PowerShell 验证原型（开发者）
 
 要求：Windows PowerShell 5.1。
 
